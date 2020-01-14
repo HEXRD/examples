@@ -1,0 +1,16 @@
+01-13 18:44:43 - hexrd - setting active material to 'ruby'
+01-13 18:44:43 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 18:44:43 - hexrd.cacheframes - clean specified, regenerating cache
+01-13 18:44:43 - hexrd.config - image_series:images:stop not specified, defaulting to None
+01-13 18:44:43 - hexrd.cacheframes - reading 480 frames of data, storing values > 25.0
+01-13 18:44:51 - hexrd.cacheframes - read 480 frames in 7.74892 seconds
+01-13 18:44:55 - hexrd.cacheframes - wrote 480 frames to cache in 11.3448 seconds
+01-13 18:44:55 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 18:44:55 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-60.0, 300.0]
+01-13 18:44:55 - hexrd.fitgrains - fitting grains using "/Users/Shared/example_analysis/v0p3/RUBY_SWEEP_2/grains.out" for the initial estimate
+01-13 18:44:55 - hexrd.fitgrains - fitting grains for 1 of 1 orientations
+01-13 18:44:55 - hexrd.fitgrains - will use 1 of 8 processors
+01-13 18:44:55 - hexrd.fitgrains - multiprocessing disabled
+01-13 18:44:55 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 18:44:55 - hexrd.fitgrains - will perform refit excluding spots > 1.00 pixels and 1.00 frames from expected values
+01-13 18:45:13 - hexrd.fitgrains - processed 1 grains in 0.310601 minutes
