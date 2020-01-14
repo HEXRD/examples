@@ -1,23 +1,22 @@
-01-13 16:17:51 - hexrd - setting active material to 'ruby'
-01-13 16:17:51 - hexrd.findorientations - beginning analysis 'RUBY_SWEEP_0'
-01-13 16:17:51 - hexrd.findorientations - clean option specified; recomputing eta/ome orientation maps
-01-13 16:17:51 - hexrd.findorientations - using hkls to generate orientation maps: [0 1 2], [1 0 4], [1 1 0], [1 1 3], [2 0 2], [0 2 4]
-01-13 16:18:16 - hexrd.findorientations - saved eta/ome orientation maps to /Users/Shared/example_analysis/v0p3/RUBY_4537-4538_t15_eta-omega.cpl
-01-13 16:18:16 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
-01-13 16:18:16 - hexrd.findorientations - Defaulting to seeded search
-01-13 16:18:16 - hexrd.findorientations - Seeding search using hkls from /Users/Shared/example_analysis/v0p3/RUBY_4537-4538_t15_eta-omega.cpl: [0 1 2], [1 0 4], [1 1 0]
-01-13 16:18:16 - hexrd.findorientations - fiber generation took 0.032 seconds
-01-13 16:18:16 - hexrd.findorientations - Running paintgrid on 3780 trial orientations
-01-13 16:18:16 - hexrd.findorientations - 1 of 8 available processors requested
-01-13 16:18:16 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-60.0, 300.0]
-01-13 16:18:16 - hexrd.xrd.indexer - running in serial mode
-01-13 16:18:17 - hexrd.xrd.indexer - paintGrid took 1.586 seconds
-01-13 16:18:19 - hexrd.findorientations - mean number of reflections per grain is 293
-01-13 16:18:19 - hexrd.findorientations - neighborhood size estimate is 6 points
-01-13 16:18:19 - hexrd.config - find_orientations:clustering:algorithm not specified, defaulting to dbscan
-01-13 16:18:19 - hexrd.findorientations - Feeding 64 orientations above 51.0% to clustering
-01-13 16:18:19 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
-01-13 16:18:19 - hexrd.findorientations - Trying 'dbscan' over 64 orientations
-01-13 16:18:19 - hexrd.findorientations - dbscan found 5 noise points
-01-13 16:18:19 - hexrd.findorientations - clustering took 0.012185 seconds
-01-13 16:18:19 - hexrd.findorientations - Found 1 orientation clusters with >=51.0% completeness and 1.000000 misorientation
+01-13 21:32:52 - hexrd - setting active material to 'ruby'
+01-13 21:32:52 - hexrd.findorientations - beginning analysis 'RUBY_SWEEP_0'
+01-13 21:32:52 - hexrd.findorientations - clean option specified; recomputing eta/ome orientation maps
+01-13 21:32:52 - hexrd.findorientations - using hkls to generate orientation maps: [0 1 2], [1 0 4], [1 1 0], [1 1 3], [2 0 2], [0 2 4]
+01-13 21:33:18 - hexrd.findorientations - saved eta/ome orientation maps to /Users/Shared/example_analysis/v0p3/RUBY_4537-4538_t15_eta-omega.cpl
+01-13 21:33:18 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+01-13 21:33:18 - hexrd.findorientations - Defaulting to seeded search
+01-13 21:33:18 - hexrd.findorientations - Seeding search using hkls from /Users/Shared/example_analysis/v0p3/RUBY_4537-4538_t15_eta-omega.cpl: [0 1 2], [1 0 4], [1 1 0]
+01-13 21:33:18 - hexrd.findorientations - fiber generation took 0.055 seconds
+01-13 21:33:18 - hexrd.findorientations - Running paintgrid on 7560 trial orientations
+01-13 21:33:18 - hexrd.findorientations - 1 of 8 available processors requested
+01-13 21:33:18 - hexrd.xrd.indexer - running in serial mode
+01-13 21:33:20 - hexrd.xrd.indexer - paintGrid took 1.891 seconds
+01-13 21:33:21 - hexrd.findorientations - mean number of reflections per grain is 292
+01-13 21:33:21 - hexrd.findorientations - neighborhood size estimate is 10 points
+01-13 21:33:21 - hexrd.config - find_orientations:clustering:algorithm not specified, defaulting to dbscan
+01-13 21:33:21 - hexrd.findorientations - Feeding 57 orientations above 85.0% to clustering
+01-13 21:33:21 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+01-13 21:33:21 - hexrd.findorientations - Trying 'dbscan' over 57 orientations
+01-13 21:33:21 - hexrd.findorientations - dbscan found 5 noise points
+01-13 21:33:21 - hexrd.findorientations - clustering took 0.022367 seconds
+01-13 21:33:21 - hexrd.findorientations - Found 1 orientation clusters with >=85.0% completeness and 1.000000 misorientation

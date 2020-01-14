@@ -1,0 +1,56 @@
+beam:
+  energy: 80.725
+  vector:
+    azimuth: 90.0
+    polar_angle: 90.0
+calibration_crystal:
+  grain_id: 0
+  inv_stretch:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  orientation:
+  - 0.6690897036845816
+  - -0.9867064377880096
+  - 0.7368173647727339
+  position:
+  - -0.0007637838830634777
+  - -2.63354541891879e-08
+  - 0.0030180011634413943
+detectors:
+  GE:
+    distortion:
+      function_name: GE_41RT
+      parameters:
+      - -1.39818726e-05
+      - -7.4035547e-05
+      - -0.000536141338
+      - 2.0
+      - 4.0
+      - 2.0
+    pixels:
+      columns: 2048
+      rows: 2048
+      size:
+      - 0.2
+      - 0.2
+    saturation_level: 14000.0
+    transform:
+      tilt:
+      - 0.0006168770738458366
+      - -0.0030864374823597013
+      - -0.002293978516643799
+      translation:
+      - -1.4475133200193957
+      - -3.2335607834044335
+      - -1050.6342702772376
+id: single APS GE
+oscillation_stage:
+  chi: -0.0009219962415145444
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0

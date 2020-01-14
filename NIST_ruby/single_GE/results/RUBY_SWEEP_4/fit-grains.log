@@ -1,16 +1,13 @@
-01-13 18:45:15 - hexrd - setting active material to 'ruby'
-01-13 18:45:15 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
-01-13 18:45:15 - hexrd.cacheframes - clean specified, regenerating cache
-01-13 18:45:15 - hexrd.config - image_series:images:stop not specified, defaulting to None
-01-13 18:45:15 - hexrd.cacheframes - reading 480 frames of data, storing values > 25.0
-01-13 18:45:23 - hexrd.cacheframes - read 480 frames in 7.94525 seconds
-01-13 18:45:26 - hexrd.cacheframes - wrote 480 frames to cache in 11.5472 seconds
-01-13 18:45:26 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
-01-13 18:45:26 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-60.0, 300.0]
-01-13 18:45:26 - hexrd.fitgrains - fitting grains using "/Users/Shared/example_analysis/v0p3/RUBY_SWEEP_3/grains.out" for the initial estimate
-01-13 18:45:26 - hexrd.fitgrains - fitting grains for 1 of 1 orientations
-01-13 18:45:26 - hexrd.fitgrains - will use 1 of 8 processors
-01-13 18:45:26 - hexrd.fitgrains - multiprocessing disabled
-01-13 18:45:26 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
-01-13 18:45:26 - hexrd.fitgrains - will perform refit excluding spots > 1.00 pixels and 1.00 frames from expected values
-01-13 18:45:44 - hexrd.fitgrains - processed 1 grains in 0.300327 minutes
+01-13 21:36:15 - hexrd - setting active material to 'ruby'
+01-13 21:36:15 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 21:36:15 - hexrd.config - image_series:images:stop not specified, defaulting to None
+01-13 21:36:15 - hexrd.cacheframes - reading 480 frames from cache
+01-13 21:36:16 - hexrd.cacheframes - read 480 cached frames in 1.24892 seconds
+01-13 21:36:16 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 21:36:16 - hexrd.fitgrains - fitting grains using "/Users/Shared/example_analysis/v0p3/RUBY_SWEEP_0/grains.out" for the initial estimate
+01-13 21:36:16 - hexrd.fitgrains - fitting grains for 1 of 1 orientations
+01-13 21:36:16 - hexrd.fitgrains - will use 1 of 8 processors
+01-13 21:36:16 - hexrd.fitgrains - multiprocessing disabled
+01-13 21:36:16 - hexrd.config - fit_grains:fit_only not specified, defaulting to False
+01-13 21:36:16 - hexrd.fitgrains - will perform refit excluding spots > 1.00 pixels and 1.00 frames from expected values
+01-13 21:36:31 - hexrd.fitgrains - processed 1 grains in 0.251062 minutes
