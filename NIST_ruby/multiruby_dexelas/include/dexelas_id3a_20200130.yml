@@ -1,0 +1,47 @@
+beam:
+  energy: 41.9906
+  vector:
+    azimuth: 90.0
+    polar_angle: 90.0
+detectors:
+  ff1:
+    pixels:
+      columns: 3072
+      rows: 3888
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15800.0
+    transform:
+      tilt:
+      - 0.012032875987008387
+      - -0.011592264734474675
+      - 6.974576459630573e-05
+      translation:
+      - 123.49610171925453
+      - 2.993380344894875
+      - -670.7295817946982
+  ff2:
+    pixels:
+      columns: 3072
+      rows: 3888
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15800.0
+    transform:
+      tilt:
+      - 0.011195300515091336
+      - -0.004991164214316322
+      - 0.0015080682285025415
+      translation:
+      - -123.68299135142057
+      - 2.862874187918822
+      - -671.512154046441
+id: GE
+oscillation_stage:
+  chi: 0.0
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
