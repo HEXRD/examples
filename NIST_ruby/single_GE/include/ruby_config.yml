@@ -16,9 +16,9 @@ image_series:
   data:
     - file: ../imageseries/RUBY_0000-fc_GE.npz
       args: {}
-      panel: single APS GE
+      panel: GE
 
-instrument:  ./ge_dectector.yml
+instrument:  ./ge_detector.yml
 
 find_orientations:
   orientation_maps:
@@ -70,7 +70,7 @@ fit_grains:
   tolerance:
     tth: [0.25, 0.20] # tolerance lists must be identical length
     eta: [3.0, 2.0]
-    omega: [2.0, 1.0]
+    omega: [1.0, 0.5]
 
   refit: [1, 1]
 
