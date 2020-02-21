@@ -9,17 +9,17 @@ analysis_name: mruby # defaults to analysis
 multiprocessing: 1 # "all", or "half", or -1 means all but one, defaults to -1
 
 material:
-  definitions: materials_new.hexrd
+  definitions: materials.hexrd
   active: ruby
 
 image_series:
   format: frame-cache
   data:
-    - file: ./mruby-0129_000004_ff2_000012-cachefile.npz
+    - file: ../imageseries/mruby-0129_000004_ff2_000012-cachefile.npz
       args: {}
       panel: ff1
 
-    - file: ./mruby-0129_000004_ff2_000012-cachefile.npz
+    - file: ../imageseries/mruby-0129_000004_ff2_000012-cachefile.npz
       args: {}
       panel: ff2
 
@@ -50,7 +50,7 @@ find_orientations:
     tolerance: 1.0 # in degrees, defaults to 2x ome step
 
     ## specify the branch cut, in degrees. The range must be 360 degrees.
-    #period: [-180, 180] # in degrees, defaults to full 360 starting at "ome start"
+    period: [0, 360] # in degrees, defaults to full 360 starting at "ome start"
 
   eta:
     tolerance: 1.0 # in degrees, defaults to 2x ome step

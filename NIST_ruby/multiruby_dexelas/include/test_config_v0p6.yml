@@ -9,7 +9,7 @@ analysis_name: mruby # defaults to analysis
 multiprocessing: all # "all", or "half", or -1 means all but one, defaults to -1
 
 material:
-  definitions: materials.hexrd
+  definitions: materials_v0p6.hexrd
   active: ruby
 
 ## !!! currently ignores this block in v0.6
