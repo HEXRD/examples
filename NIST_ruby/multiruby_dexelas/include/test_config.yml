@@ -15,7 +15,7 @@ material:
 image_series:
   format: frame-cache
   data:
-    - file: ../imageseries/mruby-0129_000004_ff2_000012-cachefile.npz
+    - file: ../imageseries/mruby-0129_000004_ff1_000012-cachefile.npz
       args: {}
       panel: ff1
 
