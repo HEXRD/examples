@@ -1,5 +1,4 @@
-
-analysis_name: mruby # defaults to analysis
+analysis_name: mruby_v0p6 # defaults to analysis
 
 ## working directory defaults to current working directory
 ## all relative paths specified herein are assumed to be in the working_dir
@@ -41,7 +40,7 @@ find_orientations:
     # A file name must be specified. If it doesn't exist, one will be created
     file: null
 
-    threshold: 0
+    threshold: 250
     bin_frames: 1 # defaults to 1
 
     ## "all", or a list of hkl orders used to find orientations
@@ -55,7 +54,7 @@ find_orientations:
     hkl_seeds: [0,1,2] # hkls ids to use, must be defined for seeded search
     fiber_step: 0.5 # degrees, defaults to ome tolerance
 
-  threshold: 250 # defaults to 1
+  threshold: 1 # defaults to 1
 
   omega:
     tolerance: 1.0 # in degrees, defaults to 2x ome step
@@ -91,4 +90,3 @@ fit_grains:
   refit: [1, 1]
 
   tth_max: false # true, false, or a non-negative value, defaults to true
-

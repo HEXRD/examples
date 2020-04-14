@@ -12,6 +12,7 @@ detectors:
       - 0.0748
       - 0.0748
     saturation_level: 15800.0
+    buffer: 2
     transform:
       tilt:
       - 0.012032875987008387
@@ -29,6 +30,7 @@ detectors:
       - 0.0748
       - 0.0748
     saturation_level: 15800.0
+    buffer: 2
     transform:
       tilt:
       - 0.011195300515091336
@@ -38,7 +40,7 @@ detectors:
       - -123.68299135142057
       - 2.862874187918822
       - -671.512154046441
-id: GE
+id: dexelas_id3a_20200130
 oscillation_stage:
   chi: 0.0
   translation:
