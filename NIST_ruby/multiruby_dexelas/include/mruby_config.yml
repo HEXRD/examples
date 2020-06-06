@@ -1,4 +1,4 @@
-analysis_name: results_hexrd07_py38  # defaults to analysis
+analysis_name: results_mruby  # defaults to analysis
 
 # working directory defaults to current working directory
 # all relative paths specified herein are assumed to be in the working_dir
@@ -7,7 +7,7 @@ analysis_name: results_hexrd07_py38  # defaults to analysis
 # working_dir:
 
 # "all", "half", or -1 means all but one, defaults to -1
-multiprocessing: all 
+multiprocessing: -1
 
 material:
   definitions: materials.hexrd
@@ -41,7 +41,7 @@ find_orientations:
   # orientation maps.  For input search space:
   #
   # use_quaternion_grid: some/file/name
-  # 
+  #
   # otherwise defaults to seeded search:
   seed_search: # this section is ignored if use_quaternion_grid is defined
     hkl_seeds: [0,1,2] # hkls ids to use, must be defined for seeded search
@@ -50,8 +50,8 @@ find_orientations:
     #   Now 3 choices: label (the original), 'blob_dog', and 'blob_log'
     #   Each has its own parameter names, examples below.
     #
-    # method: 
-    #   label: 
+    # method:
+    #   label:
     #     filter_radius: 1
     #     threshold: 1 # defaults to 1
     #
@@ -73,7 +73,7 @@ find_orientations:
   # this is the on-map threshold using in the scoring
   # defaults to 1
   threshold: 1
-   
+
   omega:
     tolerance: 1.0  # in degrees, defaults to 2x ome step
 
@@ -86,14 +86,14 @@ find_orientations:
     mask: 5  # degrees, mask angles close to ome rotation axis, defaults to 5
 
   clustering:
-    # algorithm choices are 
+    # algorithm choices are
     #   sph-dbscan
     #   ort-dbscn
     #   dbscan <default>
     #   fclusterdata; this is a fallback and won't work for large problems
     radius: 1.0
     completeness: 0.85 # completeness threshold
-    algorithm: dbscan  
+    algorithm: dbscan
 
 fit_grains:
   do_fit: true # if false, extracts grains but doesn't fit. defaults to true
