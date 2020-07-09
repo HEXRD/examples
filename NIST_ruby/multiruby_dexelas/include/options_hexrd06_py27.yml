@@ -1,9 +1,0 @@
-options:
-    find_orientations:
-        make_max_frames: false  # max a max-frame archive from imageseries
-        use_direct_search: false  # use direct search instead of map-based
-        clobber_maps: false  # force generation of new maps
-        show_maps: false
-    fit_grains:
-        block_number: null  # null will loop over all; can be a list as well
-        clobber_grains: grains  # if grains.out present, clobber it
