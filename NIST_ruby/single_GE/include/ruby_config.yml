@@ -1,4 +1,4 @@
-analysis_name: results_ruby_hexrd07_py38_scan_0  # defaults to analysis
+analysis_name: results_ruby_hexrd08_py38_scan_0  # defaults to analysis
 
 # working directory defaults to current working directory
 # all relative paths specified herein are assumed to be in the working_dir
@@ -10,8 +10,11 @@ analysis_name: results_ruby_hexrd07_py38_scan_0  # defaults to analysis
 multiprocessing: -1
 
 material:
-  definitions: materials_py38.hexrd
+  definitions: materials.hdf5
   active: ruby
+  dmin: 0.5 # defaults to 1.0 angstrom
+  tth_width: 0.2 # defaults to 0.25 degrees
+  min_sfac_ratio: 0.01 # min percentage of max |F|^2 to exclude; default None
 
 image_series:
   format: frame-cache
@@ -41,7 +44,7 @@ find_orientations:
   #
   # otherwise defaults to seeded search:
   seed_search: # this section is ignored if use_quaternion_grid is defined
-    hkl_seeds: [0, 1, 2] # hkls ids to use, must be defined for seeded search
+    hkl_seeds: [0,1,2] # hkls ids to use, must be defined for seeded search
     fiber_step: 0.5 # degrees, defaults to ome tolerance
     # Method selection:
     #   Now 3 choices: label (the original), 'blob_dog', and 'blob_log'
