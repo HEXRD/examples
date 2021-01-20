@@ -89,7 +89,7 @@ find_orientations:
         min_sigma: 0.5
         max_sigma: 5
         num_sigma: 10
-        threshold: 0.01
+        threshold: 0.05
         overlap: 0.1
   # this is the on-map threshold using in the scoring
   # defaults to 1
@@ -135,4 +135,4 @@ fit_grains:
 
   refit: [2, 1]
 
-  tth_max: false # true, false, or a non-negative value, defaults to true
+  tth_max: true # true, false, or a non-negative value, defaults to true
