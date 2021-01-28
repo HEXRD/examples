@@ -1,29 +1,29 @@
-07-09 13:18:09 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
-07-09 13:18:09 - hexrd.findorientations - 	using map search with paintGrid on 7 processes
-07-09 13:18:09 - hexrd.findorientations - clean option specified; recomputing eta/ome orientation maps
-07-09 13:18:09 - hexrd.findorientations - building eta_ome maps using hkls: [0 1 2], [1 0 4], [1 1 0], [1 1 3], [2 0 2], [0 2 4]
-07-09 13:24:56 - hexrd.findorientations - 		...took 407.267465 seconds
-07-09 13:24:57 - hexrd.findorientations - saved eta/ome orientation maps to "/Users/bernier2/Documents/GitHub/hexrd-examples/NIST_ruby/multiruby_dexelas/include/results_mruby_monolithic_hexrd06_py27_ruby_eta-ome_maps.npz"
-07-09 13:24:57 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
-07-09 13:24:57 - hexrd.findorientations - 	generating search quaternion list using 7 processes
-07-09 13:24:57 - hexrd.findorientations - 	using "blob_log" method for fiber generation
-07-09 13:25:04 - hexrd.findorientations - 	fiber generation took 0.342 seconds
-07-09 13:25:04 - hexrd.findorientations - 		...took 6.783401 seconds
-07-09 13:25:04 - hexrd.findorientations - will test 182539 quaternions using 7 processes
-07-09 13:25:04 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-180.0, 180]
-07-09 13:25:04 - hexrd.xrd.indexer - using multiprocessing with 7 processes and a chunk size of 10
-07-09 13:25:10 - hexrd.xrd.indexer - paintGrid took 6.360 seconds
-07-09 13:25:10 - hexrd.findorientations - 		...took 6.397589 seconds
-07-09 13:25:10 - hexrd.findorientations - 	Saving 182539 scored orientations with max completeness 100.000000%
-07-09 13:25:10 - hexrd.findorientations - 	running clustering using 'dbscan'
-07-09 13:25:12 - hexrd.findorientations - 	mean reflections per grain: 548
-07-09 13:25:12 - hexrd.findorientations - 	neighborhood size: 13
-07-09 13:25:12 - hexrd.findorientations - Feeding 404 orientations above 85.0% to clustering
-07-09 13:25:12 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
-07-09 13:25:12 - hexrd.findorientations - using euclidean DBSCAN
-07-09 13:25:12 - hexrd.findorientations - dbscan found 0 noise points
-07-09 13:25:12 - hexrd.findorientations - 	checking for duplicate orientations...
-07-09 13:25:12 - hexrd.findorientations - clustering took 0.377369 seconds
-07-09 13:25:12 - hexrd.findorientations - Found 3 orientation clusters with >=85.0% completeness and 1.000000 misorientation
-07-09 13:25:12 - hexrd.findorientations - 		...took 1.574170 seconds
-07-09 13:25:12 - hexrd.findorientations - 	found 3 grains; saved to file: 'accepted_orientations_results_mruby_monolithic_hexrd06_py27_ruby.dat'
+01-26 17:19:08 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+01-26 17:19:08 - hexrd.findorientations - 	using map search with paintGrid on 3 processes
+01-26 17:19:08 - hexrd.findorientations - clean option specified; recomputing eta/ome orientation maps
+01-26 17:19:08 - hexrd.findorientations - building eta_ome maps using hkls: [0 1 2], [1 0 4], [1 1 0], [1 1 3], [0 2 4], [1 1 6]
+01-26 17:21:33 - hexrd.findorientations - 		...took 144.844691 seconds
+01-26 17:21:34 - hexrd.findorientations - saved eta/ome orientation maps to "/Users/joel/Documents/GitHub/hexrd-examples/NIST_ruby/multiruby_dexelas/include/results_mruby_monolithic_hexrd06_py27_ruby_eta-ome_maps.npz"
+01-26 17:21:34 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+01-26 17:21:34 - hexrd.findorientations - 	generating search quaternion list using 3 processes
+01-26 17:21:34 - hexrd.findorientations - 	using "blob_log" method for fiber generation
+01-26 17:21:44 - hexrd.findorientations - 	fiber generation took 0.429 seconds
+01-26 17:21:44 - hexrd.findorientations - 		...took 9.825030 seconds
+01-26 17:21:44 - hexrd.findorientations - will test 74527 quaternions using 3 processes
+01-26 17:21:44 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-180.0, 180]
+01-26 17:21:44 - hexrd.xrd.indexer - using multiprocessing with 3 processes and a chunk size of 10
+01-26 17:21:51 - hexrd.xrd.indexer - paintGrid took 7.567 seconds
+01-26 17:21:51 - hexrd.findorientations - 		...took 7.614234 seconds
+01-26 17:21:51 - hexrd.findorientations - 	Saving 74527 scored orientations with max completeness 100.000000%
+01-26 17:21:51 - hexrd.findorientations - 	running clustering using 'dbscan'
+01-26 17:21:53 - hexrd.findorientations - 	mean reflections per grain: 406
+01-26 17:21:53 - hexrd.findorientations - 	neighborhood size: 13
+01-26 17:21:53 - hexrd.findorientations - Feeding 384 orientations above 85.0% to clustering
+01-26 17:21:53 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+01-26 17:21:53 - hexrd.findorientations - using euclidean DBSCAN
+01-26 17:21:53 - hexrd.findorientations - dbscan found 0 noise points
+01-26 17:21:53 - hexrd.findorientations - 	checking for duplicate orientations...
+01-26 17:21:53 - hexrd.findorientations - clustering took 0.232248 seconds
+01-26 17:21:53 - hexrd.findorientations - Found 3 orientation clusters with >=85.0% completeness and 1.000000 misorientation
+01-26 17:21:53 - hexrd.findorientations - 		...took 1.669746 seconds
+01-26 17:21:53 - hexrd.findorientations - 	found 3 grains; saved to file: 'accepted_orientations_results_mruby_monolithic_hexrd06_py27_ruby.dat'
