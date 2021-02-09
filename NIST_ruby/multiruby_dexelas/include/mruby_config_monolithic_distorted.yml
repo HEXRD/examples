@@ -1,4 +1,4 @@
-analysis_name: results_mruby_composite_hexrd08_py38  # defaults to analysis
+analysis_name: results_mruby_monolithic_distorted_hexrd08_py38  # defaults to analysis
 
 # working directory defaults to current working directory
 # all relative paths specified herein are assumed to be in the working_dir
@@ -19,32 +19,14 @@ material:
 image_series:
   format: frame-cache
   data:
-    - file: ../imageseries/mruby-0129_0004-ff1_0_0.npz
+    - file: ../imageseries/mruby-0129_000004_ff1_000012-cachefile.npz
       args: {}
-      panel: ff1_0_0  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff1_0_1.npz
+      panel: ff1  # must match detector key
+    - file: ../imageseries/mruby-0129_000004_ff2_000012-cachefile.npz
       args: {}
-      panel: ff1_0_1  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff1_1_0.npz
-      args: {}
-      panel: ff1_1_0  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff1_1_1.npz
-      args: {}
-      panel: ff1_1_1  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff2_0_0.npz
-      args: {}
-      panel: ff2_0_0  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff2_0_1.npz
-      args: {}
-      panel: ff2_0_1  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff2_1_0.npz
-      args: {}
-      panel: ff2_1_0  # must match detector key
-    - file: ../imageseries/mruby-0129_0004-ff2_1_1.npz
-      args: {}
-      panel: ff2_1_1  # must match detector key
+      panel: ff2  # must match detector key
 
-instrument: dexelas_id3a_20200130_comp.yml
+instrument: dexelas_id3a_20200130_distorted.yml
 
 find_orientations:
   orientation_maps:
@@ -124,8 +106,6 @@ fit_grains:
 
   npdiv: 4 # number of polar pixel grid subdivisions, defaults to 2
 
-  panel_buffer: 2 # don't fit spots within this many mm from edge
-
   threshold: 25
 
   tolerance:
@@ -133,6 +113,6 @@ fit_grains:
     eta: [3.0, 2.0]
     omega: [2.0, 1.0]
 
-  refit: [2, 1]
+  refit: [3, 1]
 
   tth_max: true # true, false, or a non-negative value, defaults to true

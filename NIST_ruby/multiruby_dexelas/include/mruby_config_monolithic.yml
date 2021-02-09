@@ -1,4 +1,4 @@
-analysis_name: results_mruby_monolithic_hexrd07_py38  # defaults to analysis
+analysis_name: results_mruby_monolithic_hexrd08_py38  # defaults to analysis
 
 # working directory defaults to current working directory
 # all relative paths specified herein are assumed to be in the working_dir
@@ -14,7 +14,7 @@ material:
   active: ruby
   dmin: 0.7 # defaults to 1.0 angstrom
   tth_width: 0.2 # defaults to 0.25 degrees
-  min_sfac_ratio: 0.01 # min percentage of max |F|^2 to exclude; default None
+  min_sfac_ratio: 0.05 # min percentage of max |F|^2 to exclude; default None
 
 image_series:
   format: frame-cache
@@ -71,7 +71,7 @@ find_orientations:
         min_sigma: 0.5
         max_sigma: 5
         num_sigma: 10
-        threshold: 0.05
+        threshold: 0.01
         overlap: 0.1
   # this is the on-map threshold using in the scoring
   # defaults to 1
@@ -113,6 +113,6 @@ fit_grains:
     eta: [3.0, 2.0]
     omega: [2.0, 1.0]
 
-  refit: [2, 1]
+  refit: [3, 1]
 
   tth_max: true # true, false, or a non-negative value, defaults to true
