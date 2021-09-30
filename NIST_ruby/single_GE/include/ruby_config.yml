@@ -10,7 +10,6 @@ analysis_name: results_ruby_hexrd08_py38_scan_0  # defaults to analysis
 multiprocessing: -1
 
 material:
-material:
   definitions: materials.h5
   active: ruby
   dmin: 0.7 # defaults to 1.0 angstrom
