@@ -1,0 +1,31 @@
+08-16 00:19:11 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+08-16 00:19:11 - hexrd.findorientations - 	using map search with paintGrid on 7 processes
+08-16 00:19:11 - hexrd.findorientations - clean option specified; recomputing eta/ome orientation maps
+08-16 00:19:12 - hexrd.findorientations - building eta_ome maps using hkls: [1 0 0], [0 0 2], [1 0 1], [1 0 2], [1 1 0], [1 0 3]
+08-16 00:19:13 - hexrd.findorientations - 		...took 0.984121 seconds
+08-16 00:19:13 - hexrd.findorientations - saved eta/ome orientation maps to "/Users/joel/Documents/GitHub/hexrd-examples/DAC/alpha_zirconium_axial_multi/include/results_alpha_Zr_state_0000_alpha_Zr_eta-ome_maps.npz"
+08-16 00:19:13 - hexrd.config - find_orientations:orientation_maps:filter_maps not specified, defaulting to False
+08-16 00:19:13 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+08-16 00:19:13 - hexrd.findorientations - 	generating search quaternion list using 7 processes
+08-16 00:19:13 - hexrd.findorientations - 	using "label" method for fiber generation
+08-16 00:19:16 - hexrd.findorientations - 	fiber generation took 2.657 seconds
+08-16 00:19:16 - hexrd.findorientations - 		...took 2.712260 seconds
+08-16 00:19:16 - hexrd.findorientations - will test 28443 quaternions using 7 processes
+08-16 00:19:16 - hexrd.config - find_orientations:omega:period not specified, defaulting to [-180.0, 180]
+08-16 00:19:16 - hexrd.config - omega period specification is deprecated
+08-16 00:19:16 - hexrd.indexer - using multiprocessing with 7 processes and a chunk size of 10
+08-16 00:19:25 - hexrd.indexer - paintGrid took 8.942 seconds
+08-16 00:19:25 - hexrd.findorientations - 		...took 8.976767 seconds
+08-16 00:19:25 - hexrd.findorientations - 	Saving 28443 scored orientations with max completeness 100.000000%
+08-16 00:19:25 - hexrd.findorientations - 	running clustering using 'dbscan'
+08-16 00:19:26 - hexrd.findorientations - 	mean reflections per grain: 27
+08-16 00:19:26 - hexrd.findorientations - 	neighborhood size: 2
+08-16 00:19:26 - hexrd.findorientations - Feeding 521 orientations above 75.0% to clustering
+08-16 00:19:26 - hexrd.config - find_orientations:use_quaternion_grid not specified, defaulting to None
+08-16 00:19:26 - hexrd.findorientations - using euclidean DBSCAN
+08-16 00:19:26 - hexrd.findorientations - dbscan found 0 noise points
+08-16 00:19:26 - hexrd.findorientations - 	checking for duplicate orientations...
+08-16 00:19:26 - hexrd.findorientations - clustering took 0.065654 seconds
+08-16 00:19:26 - hexrd.findorientations - Found 3 orientation clusters with >=75.0% completeness and 1.000000 misorientation
+08-16 00:19:26 - hexrd.findorientations - 		...took 0.623082 seconds
+08-16 00:19:26 - hexrd.findorientations - 	found 3 grains

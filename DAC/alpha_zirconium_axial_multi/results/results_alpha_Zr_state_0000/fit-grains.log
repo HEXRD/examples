@@ -1,0 +1,6 @@
+08-16 00:19:51 - hexrd.config - fit_grains:estimate not specified, defaulting to None
+08-16 00:19:51 - hexrd - 'force' option specified, but no initial estimate; using default
+08-16 00:19:52 - hexrd.fitgrains - 	setting the maximum 2theta to 17.50 degrees
+08-16 00:19:52 - hexrd.config - fit_grains:refit not specified, defaulting to None
+08-16 00:19:52 - hexrd.fitgrains - 	starting fit on 3 processes with chunksize 1
+08-16 00:20:06 - hexrd.fitgrains - fitting took 13.927035 seconds
