@@ -51,12 +51,22 @@ find_orientations:
     # A file name must be specified. If it doesn't exist, one will be created
     file: null
 
-    threshold: 250
-    bin_frames: 1 # defaults to 1
+    threshold: 250 # threshold on raw images to build maps
+    bin_frames: 1 # how many successive frames to bin. default is 1
 
-    # "all", or a list of hkl orders used to find orientations
-    # defaults to all orders listed in the material definition
-    active_hkls: [0,1,2,3,4,5]
+    # specify which hkls to use
+    # "all", or a list of hkl indices.  Note that the default value of "all"
+    # means all hkls that are not marked as excluded in the material definition.
+    # can be a list of indices or a list of [h, k, l].
+    # !!! used to be active_hkls: [0,1,2,3,4,5]
+    # !!! this was really [0,1,2,4,6,7] considering the material paramters above
+    active_hkls:
+      - [0, 1, 2]
+      - [1, 0, 4]
+      - [1, 1, 0]
+      - [1, 1, 3]
+      - [0, 2, 4]
+      - [1, 1, 6]
 
   # either search full quaternion grid, or seed search based on sparse
   # orientation maps.  For input search space:
