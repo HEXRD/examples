@@ -35,7 +35,13 @@ find_orientations:
 
     # "all", or a list of hkl orders used to find orientations
     # defaults to all orders listed in the material definition
-    active_hkls: [0,1,2,3,4,5]
+    active_hkls:
+      - [0, 1, 2]
+      - [1, 0, 4]
+      - [1, 1, 0]
+      - [1, 1, 3]
+      - [0, 2, 4]
+      - [1, 1, 6]
 
   # either search full quaternion grid, or seed search based on sparse
   # orientation maps.  For input search space:
