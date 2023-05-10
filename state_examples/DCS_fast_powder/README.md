@@ -12,3 +12,5 @@ thus the calibration will take longer.
 
 `dcs_fast_powder_refine_beam_energy.h5` is set up to only refine the beam
 energy.
+
+[Example Video](https://drive.google.com/file/d/1z7LmRHTU_tb0xxKr3zsih5cQgN2TUXCn/view?usp=share_link).
