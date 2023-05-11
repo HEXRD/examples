@@ -15,3 +15,7 @@ Specifications:
   1. (-115°, -65°, 50)
   2.  (65°, 115°, 50)
 - Pressure ~0.4GPa
+
+# HEXRDGUI State Examples
+
+State examples for HEXRDGUI can be found in the `state_examples` directory.
