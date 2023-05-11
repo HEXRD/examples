@@ -1,7 +1,7 @@
 Dexelas HEDM
 ============
 
-The Dexelas HEDM dataset contins 3 grains of ruby. This is a great example for
+The Dexelas HEDM dataset contains 3 grains of ruby. This is a great example for
 performing the HEDM workflow.
 
 Due to some limitations in saving frame caches within state files (that will
