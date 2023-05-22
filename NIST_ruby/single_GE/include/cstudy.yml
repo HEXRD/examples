@@ -94,121 +94,139 @@ fit_grains:
 analysis_name: cstudy/d0p75-sf00
 material:
   dmin: 0.75
-  min_sfac_ratio: 0.00
+fit_grains:
+  sfacmin: 0.0
 
 ---
 analysis_name: cstudy/d0p80-sf00
 material:
   dmin: 0.80
-  min_sfac_ratio: 0.00
+fit_grains:
+  sfacmin: 0.0
 
 ---
 analysis_name: cstudy/d1p00-sf00
 material:
   dmin: 1.00
-  min_sfac_ratio: 0.00
+fit_grains:
+  sfacmin: 0.0
 
 ---
 analysis_name: cstudy/d1p50-sf00
 material:
   dmin: 1.50
-  min_sfac_ratio: 0.00
+fit_grains:
+  sfacmin: 0.0
 
 ---
 analysis_name: cstudy/d1p60-sf00
 material:
   dmin: 1.60
-  min_sfac_ratio: 0.00
+fit_grains:
+  sfacmin: 0.0
 
 ---
 # ===== This and the next three are for sfac=0.1 and vary dmin
 analysis_name: cstudy/d0p75-sf01
 material:
   dmin: 0.75
-  min_sfac_ratio: 0.01
+fit_grains:
+  sfacmin: 0.01
 
 ---
 analysis_name: cstudy/d0p80-sf01
 material:
   dmin: 0.80
-  min_sfac_ratio: 0.01
+fit_grains:
+  sfacmin: 0.01
 
 ---
 analysis_name: cstudy/d1p00-sf01
 material:
   dmin: 1.00
-  min_sfac_ratio: 0.01
+fit_grains:
+  sfacmin: 0.01
 
 ---
 analysis_name: cstudy/d1p50-sf01
 material:
   dmin: 1.50
-  min_sfac_ratio: 0.01
+fit_grains:
+  sfacmin: 0.01
 
 ---
 analysis_name: cstudy/d1p60-sf01
 material:
   dmin: 1.60
-  min_sfac_ratio: 0.01
+fit_grains:
+  sfacmin: 0.01
 
 ---
 # ===== This and the next three are for sfac=0.05 and vary dmin
 analysis_name: cstudy/d0p75-sf05
 material:
   dmin: 0.75
-  min_sfac_ratio: 0.05
+fit_grains:
+  sfacmin: 0.05
 
 ---
 analysis_name: cstudy/d0p80-sf05
 material:
   dmin: 0.80
-  min_sfac_ratio: 0.05
+fit_grains:
+  sfacmin: 0.05
 
 ---
 analysis_name: cstudy/d1p00-sf05
 material:
   dmin: 1.00
-  min_sfac_ratio: 0.05
+fit_grains:
+  sfacmin: 0.05
 
 ---
 analysis_name: cstudy/d1p50-sf05
 material:
   dmin: 1.50
-  min_sfac_ratio: 0.05
-
+fit_grains:
+  sfacmin: 0.05
 ---
 analysis_name: cstudy/d1p60-sf05
 material:
   dmin: 1.60
-  min_sfac_ratio: 0.05
-
+fit_grains:
+  sfacmin: 0.05
 ---
 # ===== This and the next three are for sfac=0.10 and vary dmin
 analysis_name: cstudy/d0p75-sf10
 material:
   dmin: 0.75
-  min_sfac_ratio: 0.10
+fit_grains:
+  sfacmin: 0.10
 
 ---
 analysis_name: cstudy/d0p80-sf10
 material:
   dmin: 0.80
-  min_sfac_ratio: 0.10
+fit_grains:
+  sfacmin: 0.10
 
 ---
 analysis_name: cstudy/d1p00-sf10
 material:
   dmin: 1.00
-  min_sfac_ratio: 0.10
+fit_grains:
+  sfacmin: 0.10
 
 ---
 analysis_name: cstudy/d1p50-sf10
 material:
   dmin: 1.50
-  min_sfac_ratio: 0.10
+fit_grains:
+  sfacmin: 0.10
 
 ---
 analysis_name: cstudy/d1p60-sf10
 material:
   dmin: 1.60
-  min_sfac_ratio: 0.10
+fit_grains:
+  sfacmin: 0.10
