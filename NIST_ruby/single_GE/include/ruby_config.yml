@@ -1,4 +1,4 @@
-analysis_name: results_ruby_hexrd08_py38_scan_0  # defaults to analysis
+analysis_name: ruby/scan-0  # defaults to analysis
 
 # working directory defaults to current working directory
 # all relative paths specified herein are assumed to be in the working_dir
@@ -7,14 +7,13 @@ analysis_name: results_ruby_hexrd08_py38_scan_0  # defaults to analysis
 # working_dir:
 
 # "all", "half", or -1 means all but one, defaults to -1
-multiprocessing: -1
+multiprocessing: 1
 
 material:
   definitions: materials.h5
   active: ruby
-  dmin: 0.7 # defaults to 1.0 angstrom
   tth_width: 0.2 # defaults to 0.25 degrees
-  min_sfac_ratio: 0.05 # min percentage of max |F|^2 to exclude; default None
+  dmin: 0.7
 
 image_series:
   format: frame-cache
@@ -118,11 +117,11 @@ fit_grains:
 
   refit: [1, 1]
 
-  tth_max: 14.75 # true, false, or a non-negative value, defaults to true
+  sfacmin: 0.05
 
 ---
 
-analysis_name: results_ruby_hexrd07_py38_scan_1  # defaults to analysis
+analysis_name: ruby/scan-1  # defaults to analysis
 
 image_series:
   format: frame-cache
@@ -132,11 +131,11 @@ image_series:
       panel: GE  # must match detector key
 
 fit_grains:
-  estimate: results_ruby_hexrd07_py38_scan_0/grains.out
+  estimate: ruby/scan-0/grains.out
 
 ---
 
-analysis_name: results_ruby_hexrd07_py38_scan_2  # defaults to analysis
+analysis_name: ruby/scan-2  # defaults to analysis
 
 image_series:
   format: frame-cache
@@ -146,11 +145,11 @@ image_series:
       panel: GE  # must match detector key
 
 fit_grains:
-  estimate: results_ruby_hexrd07_py38_scan_0/grains.out
+  estimate: ruby/scan-0/grains.out
 
 ---
 
-analysis_name: results_ruby_hexrd07_py38_scan_3  # defaults to analysis
+analysis_name: ruby/scan-3  # defaults to analysis
 
 image_series:
   format: frame-cache
@@ -160,11 +159,11 @@ image_series:
       panel: GE  # must match detector key
 
 fit_grains:
-  estimate: results_ruby_hexrd07_py38_scan_0/grains.out
+  estimate: ruby/scan-0/grains.out
 
 ---
 
-analysis_name: results_ruby_hexrd07_py38_scan_4  # defaults to analysis
+analysis_name: ruby/scan-4  # defaults to analysis
 
 image_series:
   format: frame-cache
@@ -174,11 +173,11 @@ image_series:
       panel: GE  # must match detector key
 
 fit_grains:
-  estimate: results_ruby_hexrd07_py38_scan_0/grains.out
+  estimate: ruby/scan-0/grains.out
 
 ---
 
-analysis_name: results_ruby_hexrd07_py38_scan_5  # defaults to analysis
+analysis_name: ruby/scan-5  # defaults to analysis
 
 image_series:
   format: frame-cache
@@ -188,4 +187,4 @@ image_series:
       panel: GE  # must match detector key
 
 fit_grains:
-  estimate: results_ruby_hexrd07_py38_scan_0/grains.out
+  estimate: ruby/scan-0/grains.out
