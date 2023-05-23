@@ -48,7 +48,7 @@ grain_flags_DFLT = np.array(
 cfg_filename = 'mruby_config_monolithic_distorted.yml'
 block_id = 0    # only change this if you know what you are doing!
 
-overwrite_parfile = True    # if you want to overwrite the instr par
+overwrite_parfile = False    # if you want to overwrite the instr par
 
 # select which orientaion to use (in case of more than one...)
 grain_ids = [0, 1, 2]
@@ -710,5 +710,5 @@ for grain_id, grain in zip(grain_ids, grain_parameters):
 output_name = 'new_instrument.yml'
 if overwrite_parfile:
     output_name = cfg.instrument.configuration
-instr.write_config(filename=output_name,
+instr.write_config(file=output_name,
                    calibration_dict=calibration_dict)

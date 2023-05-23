@@ -1,0 +1,232 @@
+analysis_name: cstudy/d1p60-sf05
+# working_dir: .
+
+# "all", "half", or -1 means all but one, defaults to -1
+multiprocessing: 1
+
+material:
+  definitions: materials.h5
+  active: ruby
+  # dmin in angstroms,
+  # tth_width in degrees,
+  # min_sfac_ratio a proportion (excludes sfac below)
+  dmin: 1.60
+  tth_width: 0.2
+  min_sfac_ratio: 0.05
+
+image_series:
+  format: frame-cache
+  data:
+    - file: ../imageseries/RUBY_0000-fc_GE.npz
+      args: {}
+      panel: GE  # must match detector key
+
+instrument: ge_detector.yml
+
+find_orientations:
+
+  orientation_maps:
+    # A file name must be specified. If it doesn't exist, one will be created
+    file: null
+
+    threshold: 25
+    bin_frames: 1 # defaults to 1
+
+    # "all", or a list of hkl orders used to find orientations
+    # defaults to all orders listed in the material definition
+    active_hkls:
+      - [0, 1, 2]
+      - [1, 0, 4]
+      - [1, 1, 0]
+      - [1, 1, 3]
+      - [0, 2, 4]
+      - [1, 1, 6]
+
+  seed_search: # this section is ignored if use_quaternion_grid is defined
+    hkl_seeds: [0,1,2] # hkls ids to use, must be defined for seeded search
+    fiber_step: 0.5 # degrees, defaults to ome tolerance
+    method:
+      label:
+        filter_radius: 1
+        threshold: 1 # defaults to 1
+  threshold: 1
+
+  omega:
+    tolerance: 1.0  # in degrees, defaults to 2x ome step
+
+    # specify the branch cut, in degrees. The range must be 360 degrees.
+    # defaults to full 360 starting at the first omega value in imageseries.
+    # !!! THIS OPTION IS DEPRECATED.
+    # period: [0, 360]
+
+  eta:
+    tolerance: 1.0  # in degrees, defaults to 2x ome step
+    mask: 5  # degrees, mask angles close to ome rotation axis, defaults to 5
+
+  clustering:
+    # algorithm choices are
+    #   sph-dbscan
+    #   ort-dbscn
+    #   dbscan <default>
+    #   fclusterdata; this is a fallback and won't work for large problems
+    radius: 1.0
+    completeness: 0.85 # completeness threshold
+    algorithm: dbscan
+
+fit_grains:
+  do_fit: true # if false, extracts grains but doesn't fit. defaults to true
+
+  npdiv: 4 # number of polar pixel grid subdivisions, defaults to 2
+
+  threshold: 25
+
+  tolerance:
+    tth: [0.25, 0.20] # tolerance lists must be identical length
+    eta: [3.0, 2.0]
+    omega: [2.0, 1.0]
+
+  refit: [1, 1]
+
+  tth_max: false
+
+---
+# ===== This and the next three are for sfac=0 and vary dmin
+analysis_name: cstudy/d0p75-sf00
+material:
+  dmin: 0.75
+fit_grains:
+  sfacmin: 0.0
+
+---
+analysis_name: cstudy/d0p80-sf00
+material:
+  dmin: 0.80
+fit_grains:
+  sfacmin: 0.0
+
+---
+analysis_name: cstudy/d1p00-sf00
+material:
+  dmin: 1.00
+fit_grains:
+  sfacmin: 0.0
+
+---
+analysis_name: cstudy/d1p50-sf00
+material:
+  dmin: 1.50
+fit_grains:
+  sfacmin: 0.0
+
+---
+analysis_name: cstudy/d1p60-sf00
+material:
+  dmin: 1.60
+fit_grains:
+  sfacmin: 0.0
+
+---
+# ===== This and the next three are for sfac=0.1 and vary dmin
+analysis_name: cstudy/d0p75-sf01
+material:
+  dmin: 0.75
+fit_grains:
+  sfacmin: 0.01
+
+---
+analysis_name: cstudy/d0p80-sf01
+material:
+  dmin: 0.80
+fit_grains:
+  sfacmin: 0.01
+
+---
+analysis_name: cstudy/d1p00-sf01
+material:
+  dmin: 1.00
+fit_grains:
+  sfacmin: 0.01
+
+---
+analysis_name: cstudy/d1p50-sf01
+material:
+  dmin: 1.50
+fit_grains:
+  sfacmin: 0.01
+
+---
+analysis_name: cstudy/d1p60-sf01
+material:
+  dmin: 1.60
+fit_grains:
+  sfacmin: 0.01
+
+---
+# ===== This and the next three are for sfac=0.05 and vary dmin
+analysis_name: cstudy/d0p75-sf05
+material:
+  dmin: 0.75
+fit_grains:
+  sfacmin: 0.05
+
+---
+analysis_name: cstudy/d0p80-sf05
+material:
+  dmin: 0.80
+fit_grains:
+  sfacmin: 0.05
+
+---
+analysis_name: cstudy/d1p00-sf05
+material:
+  dmin: 1.00
+fit_grains:
+  sfacmin: 0.05
+
+---
+analysis_name: cstudy/d1p50-sf05
+material:
+  dmin: 1.50
+fit_grains:
+  sfacmin: 0.05
+---
+analysis_name: cstudy/d1p60-sf05
+material:
+  dmin: 1.60
+fit_grains:
+  sfacmin: 0.05
+---
+# ===== This and the next three are for sfac=0.10 and vary dmin
+analysis_name: cstudy/d0p75-sf10
+material:
+  dmin: 0.75
+fit_grains:
+  sfacmin: 0.10
+
+---
+analysis_name: cstudy/d0p80-sf10
+material:
+  dmin: 0.80
+fit_grains:
+  sfacmin: 0.10
+
+---
+analysis_name: cstudy/d1p00-sf10
+material:
+  dmin: 1.00
+fit_grains:
+  sfacmin: 0.10
+
+---
+analysis_name: cstudy/d1p50-sf10
+material:
+  dmin: 1.50
+fit_grains:
+  sfacmin: 0.10
+
+---
+analysis_name: cstudy/d1p60-sf10
+material:
+  dmin: 1.60
+fit_grains:
+  sfacmin: 0.10

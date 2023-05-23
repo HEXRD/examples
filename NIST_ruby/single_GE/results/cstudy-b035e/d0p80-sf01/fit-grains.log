@@ -1,0 +1,4 @@
+05-22 11:14:43 - hexrd.config - fit_grains:estimate not specified, defaulting to None
+05-22 11:14:43 - hexrd - 'force' option specified, but no initial estimate; using default
+05-22 11:14:44 - hexrd.fitgrains - 	starting serial fit
+05-22 11:14:52 - hexrd.fitgrains - fitting took 8.237076 seconds

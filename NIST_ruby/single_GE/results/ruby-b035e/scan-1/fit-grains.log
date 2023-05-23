@@ -1,0 +1,3 @@
+05-22 14:52:29 - hexrd - using initial estimate '/Users/deboyce/Source/hexrd-examples/examples/NIST_ruby/single_GE/docrun/ruby/scan-0/grains.out'
+05-22 14:52:30 - hexrd.fitgrains - 	starting serial fit
+05-22 14:52:40 - hexrd.fitgrains - fitting took 10.235695 seconds
