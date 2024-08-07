@@ -1,0 +1,56 @@
+beam:
+  energy: 10.2505
+  source_distance: .inf
+  vector:
+    azimuth: 119.8
+    polar_angle: 89.79
+detectors:
+  IMAGE-PLATE-2:
+    buffer:
+    - 0.1
+    - 0.1
+    detector_type: planar
+    pixels:
+      columns: 901
+      rows: 421
+      size:
+      - 0.1
+      - 0.1
+    saturation_level: 14000.0
+    transform:
+      tilt:
+      - -1.57079276604371
+      - 0.003925051305007831
+      - 0.003925051292427459
+      translation:
+      - 0.30000000000000004
+      - -11.578930570268982
+      - -24.879999999999995
+  IMAGE-PLATE-4:
+    buffer:
+    - 0.1
+    - 0.1
+    detector_type: planar
+    pixels:
+      columns: 901
+      rows: 421
+      size:
+      - 0.1
+      - 0.1
+    saturation_level: 14000.0
+    transform:
+      tilt:
+      - 2.0455379506959535e-09
+      - -2.221441469079183
+      - 2.2214414690791835
+      translation:
+      - 0.04999999999999999
+      - 11.626024249683901
+      - -25.109999999999996
+id: instrument
+oscillation_stage:
+  chi: 0.0
+  translation:
+  - 0.0
+  - 0.0
+  - 0.155
