@@ -1,0 +1,63 @@
+beam:
+  XRS1:
+    energy: 10.25
+    source_distance: 31.0
+    vector:
+      azimuth: 119.30000000000001
+      polar_angle: 90.0
+  XRS2:
+    energy: 10.25
+    source_distance: 31.0
+    vector:
+      azimuth: 60.69999999999999
+      polar_angle: 90.0
+detectors:
+  IMAGE-PLATE-2:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    pixels:
+      columns: 901
+      rows: 421
+      size:
+      - 0.1
+      - 0.1
+    saturation_level: 65536.0
+    transform:
+      tilt:
+      - -1.570795917798581
+      - 0.0013296550087419576
+      - 0.0013296550087417659
+      translation:
+      - 0.7609388739336355
+      - -11.928017770578574
+      - -25.171271063820235
+  IMAGE-PLATE-4:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    pixels:
+      columns: 901
+      rows: 421
+      size:
+      - 0.1
+      - 0.1
+    saturation_level: 65536.0
+    transform:
+      tilt:
+      - 0.0022089841435045734
+      - 2.2204460820923146
+      - -2.2204460820923146
+      translation:
+      - 0.9649581110343362
+      - 11.930619933091943
+      - -25.76776329956245
+id: NXXXXXX-XXX
+oscillation_stage:
+  chi: 0.0
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
