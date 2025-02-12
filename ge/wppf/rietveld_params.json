@@ -1,0 +1,198 @@
+{
+    "zero_error": {
+        "name": "zero_error",
+        "value": 0.0,
+        "lb": -1.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "trns": {
+        "name": "trns",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "shft": {
+        "name": "shft",
+        "value": 0.0,
+        "lb": -1.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "U": {
+        "name": "U",
+        "value": 491.4508820470914,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "V": {
+        "name": "V",
+        "value": -33.57716481934777,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "W": {
+        "name": "W",
+        "value": 6.07818421321047,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_P": {
+        "name": "CeO2_P",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_X": {
+        "name": "CeO2_X",
+        "value": 0.5665,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_Y": {
+        "name": "CeO2_Y",
+        "value": 1.90994,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_s400": {
+        "name": "CeO2_s400",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_s220": {
+        "name": "CeO2_s220",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_eta_fwhm": {
+        "name": "CeO2_eta_fwhm",
+        "value": 0.5,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_a": {
+        "name": "CeO2_a",
+        "value": 0.54115,
+        "lb": 0.491153,
+        "ub": 0.5911530000000002,
+        "vary": false
+    },
+    "CeO2_sf_alpha": {
+        "name": "CeO2_sf_alpha",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_twin_beta": {
+        "name": "CeO2_twin_beta",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "scale": {
+        "name": "scale",
+        "value": 1.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": true
+    },
+    "Ph": {
+        "name": "Ph",
+        "value": 1.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_phase_fraction": {
+        "name": "CeO2_phase_fraction",
+        "value": 1.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_O1_x": {
+        "name": "CeO2_O1_x",
+        "value": 0.25,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_O1_y": {
+        "name": "CeO2_O1_y",
+        "value": 0.25,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_O1_z": {
+        "name": "CeO2_O1_z",
+        "value": 0.25,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_O1_occ": {
+        "name": "CeO2_O1_occ",
+        "value": 1.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_O1_dw": {
+        "name": "CeO2_O1_dw",
+        "value": 0.001698586973361671,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_Ce1_x": {
+        "name": "CeO2_Ce1_x",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_Ce1_y": {
+        "name": "CeO2_Ce1_y",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_Ce1_z": {
+        "name": "CeO2_Ce1_z",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_Ce1_occ": {
+        "name": "CeO2_Ce1_occ",
+        "value": 1.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_Ce1_dw": {
+        "name": "CeO2_Ce1_dw",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    }
+}

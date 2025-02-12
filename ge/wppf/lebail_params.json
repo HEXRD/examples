@@ -1,0 +1,149 @@
+{
+    "zero_error": {
+        "name": "zero_error",
+        "value": 0.0,
+        "lb": -1.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "trns": {
+        "name": "trns",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "shft": {
+        "name": "shft",
+        "value": 0.0,
+        "lb": -1.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "U": {
+        "name": "U",
+        "value": 491.4508820470914,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "V": {
+        "name": "V",
+        "value": -33.57716481934777,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "W": {
+        "name": "W",
+        "value": 6.07818421321047,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "HL": {
+        "name": "HL",
+        "value": 0.001,
+        "lb": 1e-07,
+        "ub": 0.1,
+        "vary": false
+    },
+    "SL": {
+        "name": "SL",
+        "value": 0.001,
+        "lb": 1e-07,
+        "ub": 0.1,
+        "vary": false
+    },
+    "bkg_0": {
+        "name": "bkg_0",
+        "value": 0.0,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "bkg_1": {
+        "name": "bkg_1",
+        "value": 0.0,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "bkg_2": {
+        "name": "bkg_2",
+        "value": 0.0,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "bkg_3": {
+        "name": "bkg_3",
+        "value": 0.0,
+        "lb": -Infinity,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_P": {
+        "name": "CeO2_P",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_X": {
+        "name": "CeO2_X",
+        "value": 0.5665,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_Y": {
+        "name": "CeO2_Y",
+        "value": 1.90994,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_s400": {
+        "name": "CeO2_s400",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_s220": {
+        "name": "CeO2_s220",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": Infinity,
+        "vary": false
+    },
+    "CeO2_eta_fwhm": {
+        "name": "CeO2_eta_fwhm",
+        "value": 0.5,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_a": {
+        "name": "CeO2_a",
+        "value": 0.54115,
+        "lb": 0.491153,
+        "ub": 0.5911530000000002,
+        "vary": true
+    },
+    "CeO2_sf_alpha": {
+        "name": "CeO2_sf_alpha",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    },
+    "CeO2_twin_beta": {
+        "name": "CeO2_twin_beta",
+        "value": 0.0,
+        "lb": 0.0,
+        "ub": 1.0,
+        "vary": false
+    }
+}
