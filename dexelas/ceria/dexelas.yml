@@ -1,0 +1,213 @@
+beam:
+  energy: 29.8
+  vector:
+    azimuth: 90.0
+    polar_angle: 90.0
+detectors:
+  ff1_0_0:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff1
+    pixels:
+      columns: 1536
+      roi:
+      - 0
+      - 0
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - 0.0019197420008878437
+      - -0.10515871430824328
+      - 0.004352081214752357
+      translation:
+      - 51.26463863305304
+      - 75.09800670277548
+      - -640.0156594719709
+  ff1_0_1:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff1
+    pixels:
+      columns: 1536
+      roi:
+      - 0
+      - 1536
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - 0.009686956250963158
+      - -0.09736988342070545
+      - 0.006077009435043756
+      translation:
+      - 165.77698632997019
+      - 75.70286898155501
+      - -628.793688181251
+  ff1_1_0:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff1
+    pixels:
+      columns: 1536
+      roi:
+      - 1944
+      - 0
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - 0.016492877486318395
+      - -0.10347397146303543
+      - 0.005794102706669179
+      translation:
+      - 52.074371067281135
+      - -70.2824446410049
+      - -641.3490981264323
+  ff1_1_1:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff1
+    pixels:
+      columns: 1536
+      roi:
+      - 1944
+      - 1536
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - 0.010921206204200047
+      - -0.0983775716274818
+      - 0.004792189388782448
+      translation:
+      - 166.63112966625837
+      - -69.8025887421062
+      - -630.2429148921844
+  ff2_0_0:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff2
+    pixels:
+      columns: 1536
+      roi:
+      - 0
+      - 0
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - -0.0035829919517697665
+      - 0.09429977672097795
+      - 0.00017866073371084886
+      translation:
+      - -185.63562012094576
+      - 75.03860833779716
+      - -628.2474382632956
+  ff2_0_1:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff2
+    pixels:
+      columns: 1536
+      roi:
+      - 0
+      - 1536
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - -0.007353490317694314
+      - 0.09914778055487186
+      - 0.00023140244071108537
+      translation:
+      - -71.16826074811699
+      - 75.03598835365459
+      - -639.2370592376826
+  ff2_1_0:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff2
+    pixels:
+      columns: 1536
+      roi:
+      - 1944
+      - 0
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - -0.0018973345477298882
+      - 0.09454011170887477
+      - 0.0007735024318162856
+      translation:
+      - -185.62141877849695
+      - -70.48699624275592
+      - -628.0032043786352
+  ff2_1_1:
+    buffer:
+    - 0.0
+    - 0.0
+    detector_type: planar
+    group: ff2
+    pixels:
+      columns: 1536
+      roi:
+      - 1944
+      - 1536
+      rows: 1944
+      size:
+      - 0.0748
+      - 0.0748
+    saturation_level: 15000.0
+    transform:
+      tilt:
+      - 0.0021747649997036107
+      - 0.09886454045911926
+      - 0.00017051825810898675
+      translation:
+      - -71.12761409408894
+      - -70.3936723910819
+      - -638.8276700617399
+id: Mutlipanel Dexelas id3a Jan 30 2020
+oscillation_stage:
+  chi: 0.0002443460952792061
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
