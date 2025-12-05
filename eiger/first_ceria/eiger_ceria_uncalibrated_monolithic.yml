@@ -1,0 +1,32 @@
+beam:
+  energy: 61.332
+  vector:
+    azimuth: 90.0
+    polar_angle: 90.0
+detectors:
+  eiger:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    pixels:
+      columns: 4148
+      rows: 4362
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.005025457552823412
+      - 0.00010531220390272688
+      - 0.0077666988183850705
+      translation:
+      - -0.564
+      - 0.0
+      - -915.0
+id: instrument
+oscillation_stage:
+  chi: 0.0
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0

@@ -1,0 +1,749 @@
+beam:
+  energy: 61.332
+  vector:
+    azimuth: 90.0
+    polar_angle: 90.0
+detectors:
+  eiger_0_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 0
+      - 0
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01692988282571824
+      - -0.007038282209770235
+      - 0.0025585435659776314
+      translation:
+      - -117.85545496994389
+      - 144.14885366751915
+      - -910.6992828448082
+  eiger_0_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 0
+      - 1034
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01611742320109251
+      - -0.006015328389385499
+      - 0.004342886273167396
+      translation:
+      - -40.717161504766395
+      - 144.3806719509631
+      - -911.8099723714201
+  eiger_0_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 0
+      - 2074
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.007078299859013754
+      - 0.028659180906086483
+      - -0.0002549559190881517
+      translation:
+      - 38.59861914012914
+      - 144.52608263410158
+      - -912.7203648885679
+  eiger_0_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 0
+      - 3114
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.017895814441018624
+      - 0.009944504925908955
+      - -0.003805623421169968
+      translation:
+      - 116.19713039448656
+      - 144.20655398532537
+      - -912.9874527387437
+  eiger_1_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 531
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01957444234736644
+      - -0.00475288080356626
+      - 0.00039689781341245355
+      translation:
+      - -117.50519170615124
+      - 104.12229814753769
+      - -910.649017010427
+  eiger_1_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 531
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.020492574323291875
+      - 0.0019222562271081773
+      - 0.0014969052550233095
+      translation:
+      - -40.048829019998124
+      - 104.19153330641271
+      - -912.0020210626938
+  eiger_1_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 531
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.014099426100740877
+      - 0.014273710448208564
+      - 0.0008119877915512251
+      translation:
+      - 38.050770177423985
+      - 104.27738960861797
+      - -913.0890293402164
+  eiger_1_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 531
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.012318363143187558
+      - 0.004199286183583504
+      - -0.0008229323992669294
+      translation:
+      - 115.94540881084976
+      - 104.33161896247262
+      - -914.4111233372045
+  eiger_2_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 1081
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.007599112199358754
+      - 0.0008891606756313779
+      - -4.9971821291317906e-05
+      translation:
+      - -117.75547922231131
+      - 63.08256847597539
+      - -912.0624443506514
+  eiger_2_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 1081
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.016404771695270926
+      - 0.005458723574880783
+      - 0.0028769999844769534
+      translation:
+      - -40.11897220616037
+      - 62.99621012908197
+      - -912.2741619214955
+  eiger_2_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 1081
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.009621886372277172
+      - 0.004262473705983036
+      - -0.0008026722020847849
+      translation:
+      - 38.14764991323995
+      - 63.058754381535636
+      - -913.2970469181118
+  eiger_2_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 1081
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.0101519695938831
+      - 0.005402651033802453
+      - -0.0008678730396784162
+      translation:
+      - 115.89499423719151
+      - 62.98086616602254
+      - -913.5397412382379
+  eiger_3_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 1631
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.014034473210683407
+      - 0.0016813191754380097
+      - 0.0018757919854784544
+      translation:
+      - -117.75224341750172
+      - 21.729075687568365
+      - -911.502808604775
+  eiger_3_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 1631
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.016756982702701366
+      - 0.005140200485975578
+      - 0.0030405704424636398
+      translation:
+      - -40.02707060214539
+      - 21.750526535271806
+      - -912.1580764523742
+  eiger_3_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 1631
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.019080681050795363
+      - 0.003171401015854607
+      - -0.0018155570822353756
+      translation:
+      - 38.071609777867586
+      - 21.777973655801063
+      - -912.602848814973
+  eiger_3_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 1631
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.013264249561749276
+      - 0.009724013591782715
+      - -0.0015999546772350994
+      translation:
+      - 115.8198814588716
+      - 21.63227138379469
+      - -912.6029923660086
+  eiger_4_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 2181
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.011621956073760889
+      - 0.0012956711859854891
+      - 0.0031781704911073476
+      translation:
+      - -117.72684328555215
+      - -19.66529319509058
+      - -911.2771190172655
+  eiger_4_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 2181
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.014834989093945221
+      - 0.0019475941146642284
+      - 0.003396388211383852
+      translation:
+      - -39.925088535855565
+      - -19.503597569082604
+      - -911.8493561192831
+  eiger_4_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 2181
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.007321329481837665
+      - 0.0022482318852624548
+      - -0.0011716018256412062
+      translation:
+      - 38.01656227519952
+      - -19.518922414748204
+      - -912.5545193145132
+  eiger_4_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 2181
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.008245406223291795
+      - 0.009083069263343126
+      - 0.0005867586527200574
+      translation:
+      - 115.78921812991213
+      - -19.42455637358228
+      - -912.2599660844145
+  eiger_5_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 2731
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.012705576931125017
+      - 0.005455922845235386
+      - 0.0027901534969475474
+      translation:
+      - -117.66981107276963
+      - -60.919808029020345
+      - -911.2040602123087
+  eiger_5_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 2731
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01433587608476266
+      - 0.00999165785447692
+      - 0.001602541391745449
+      translation:
+      - -39.909018641988595
+      - -60.77835114862678
+      - -912.0236632705604
+  eiger_5_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 2731
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.009813668907943636
+      - 0.005236844876986515
+      - -0.0014496835418425884
+      translation:
+      - 37.93915277586192
+      - -60.720326672454235
+      - -911.6929652771832
+  eiger_5_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 2731
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.013137479543513058
+      - 0.005493498910685958
+      - -3.5870344998838166e-05
+      translation:
+      - 115.88300973287431
+      - -60.70305084413893
+      - -912.5113842769358
+  eiger_6_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 3281
+      - 0
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.012048383520994653
+      - 0.0089078662391426
+      - 0.0017542917769034015
+      translation:
+      - -117.66075224818178
+      - -102.16978840051769
+      - -911.1295255664833
+  eiger_6_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 3281
+      - 1034
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.015263927387110745
+      - 0.006019154399177635
+      - 0.0012556242602724237
+      translation:
+      - -39.87886691977437
+      - -102.00686791789153
+      - -911.3798722857632
+  eiger_6_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 3281
+      - 2074
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01430800524609975
+      - 0.0021769977452835623
+      - 0.0007337650070631334
+      translation:
+      - 38.06207605823064
+      - -101.99575753983271
+      - -911.8649945466158
+  eiger_6_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 3281
+      - 3114
+      rows: 550
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.02172825222038597
+      - -0.002217220542918499
+      - 0.001212684425260224
+      translation:
+      - 116.22786298340516
+      - -102.05273257102758
+      - -913.9762534747252
+  eiger_7_0:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 3831
+      - 0
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.01400287819245375
+      - 0.010891114239777256
+      - 0.004492830860600306
+      translation:
+      - -117.20971748934633
+      - -143.20346001894544
+      - -911.3015068679331
+  eiger_7_1:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 3831
+      - 1034
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.010910239969406611
+      - 0.020306523193321095
+      - 0.002448891893549232
+      translation:
+      - -39.33856519775019
+      - -142.88032763731687
+      - -911.9258414853598
+  eiger_7_2:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1040
+      roi:
+      - 3831
+      - 2074
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.019737769813863486
+      - -0.00596162286964386
+      - -0.003543733418269184
+      translation:
+      - 37.35771554347414
+      - -143.03503619025204
+      - -913.0825808965457
+  eiger_7_3:
+    buffer: 'chess-eiger-stream-v1'
+    detector_type: planar
+    group: eiger
+    pixels:
+      columns: 1034
+      roi:
+      - 3831
+      - 3114
+      rows: 531
+      size:
+      - 0.075
+      - 0.075
+    saturation_level: 1314776.0
+    transform:
+      tilt:
+      - -0.02209330757745407
+      - -0.003361231169217404
+      - -0.0011678333792139977
+      translation:
+      - 115.8906436325653
+      - -143.07133561260676
+      - -913.8353436148374
+id: instrument
+oscillation_stage:
+  chi: 0.0
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
