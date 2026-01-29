@@ -1,4 +1,5 @@
 analysis_name: cstudy/d1p60-sf05
+new_file_placement: on
 # working_dir: .
 
 # "all", "half", or -1 means all but one, defaults to -1
